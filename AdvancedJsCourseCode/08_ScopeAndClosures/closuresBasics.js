@@ -1,3 +1,7 @@
+//Clouser => when we define a function inside a finction and the
+// inside function have the ablility to access outer function variab🇱🇸
+//and the outer function return inner function;
+
 function outerFunction() {
   let outerVariable = "I am from outer!";
   function innerFunction() {
@@ -18,3 +22,6 @@ function idGenerator() {
 }
 
 const nextId = idGenerator();
+for (let i = 0; i < 10; i++) {
+  console.log(nextid());
+}
